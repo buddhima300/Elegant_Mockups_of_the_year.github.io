@@ -1,0 +1,113 @@
+
+#headerimg{
+    width: 40cm;
+    height: 15cm;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.vimi{
+    display: inline-flex;
+    margin-left: 80px;
+    color: white;
+    text-align: center;
+}
+.vimi h2{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.topic{
+    color: white;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-size: 100px;
+    text-align: center;
+}
+.vission{
+    margin-left: 150px;
+    text-align: center;
+}
+.mission{
+    margin-left: 480px;
+    text-align: center;
+}
+
+/* story content styling */
+.story1{
+    /* border: 2px solid white; */
+    display: inline-flex;
+    margin-top: 30px;
+    padding-left: 20px;
+    text-align: justify;
+    padding-top: 50px;
+}
+.captions{
+    width: 22cm;
+    color: white;
+    margin-top: 2cm;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.captions h2{
+    width: 22cm;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.captions p{
+    color: rgb(162, 162, 162);
+}
+.story1 img{
+    margin-left: 30px;
+    width: 18cm;
+    height: 15cm;
+}
+
+/* final captions */
+.editor img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transform: translate(380%);
+}
+.editor h2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.editor h2:last-child{
+    font-size: 15px;
+    color: rgb(154, 154, 154);
+}
+.editor p{
+    font-size: 15px;
+    color: rgb(154, 154, 154);
+    margin-left: 450px;
+    width: 20cm;
+    text-align: center;
+    margin-top: 20px;
+}
+.editor input{
+    margin-left: 450px;
+    width: 20cm;
+    /* text-align: center; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+}
+.editor i{
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.editor i:hover{
+    color: rgb(0, 206, 0);
+    border: 1px solid rgb(24, 169, 1);
+}

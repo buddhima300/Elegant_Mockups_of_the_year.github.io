@@ -1,0 +1,147 @@
+body{
+    width: 45cm;
+}
+.background{
+    width: 45cm;
+    height: 20cm;
+    background-image: url(images/background4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: -35px; */
+}
+.background h1{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    position: absolute;
+    /* transform: translateY(450%); */
+    text-align: left;
+    margin-left: 1cm;
+    letter-spacing: -5px;
+    margin-top: 20px;
+}
+
+.capt{
+    height: 4cm;
+    width: 45cm;
+    display: inline-flex;
+    background-color: black;
+    opacity: 0.65;
+    color: white;
+    position: absolute;
+    margin-top: 16cm;
+}
+.capt h2{
+    width: 15cm;
+    margin-left: 1cm;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+    border-right: 6px solid white;
+}
+
+.subhead {
+    background-color: rgb(1, 104, 142);
+    width: 45cm;
+    /* margin-bottom: -40px; */
+    margin-top: 20px;
+}
+.subhead h2{
+    font-size: 50px;
+    margin-left: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.subhead2 {
+    background-color: rgb(142, 1, 1);
+    width: 45cm;
+    /* margin-bottom: -40px; */
+    /* margin-top: -30px; */
+}
+.subhead2 h2{
+    font-size: 50px;
+    margin-left: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.cardbg{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 10cm;
+    width: 10cm;
+    display: inline-flex;
+    margin-left: 24px;
+    /* background-color: rgb(4, 4, 83); */
+    background-image: url(images/pro_bg.jpg);
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.cardbg2{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 10cm;
+    width: 10cm;
+    display: inline-flex;
+    margin-left: 24px;
+    /* background-color: rgb(4, 4, 83); */
+    background-image: url(images/pro_bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.cardbg:hover{
+    box-shadow: 2px 2px 20px black;
+
+}
+.cardbg:hover img{
+    scale: 1.2;
+
+}
+.cardbg2:hover{
+    box-shadow: 2px 2px 20px black;
+
+}
+.cardbg2:hover img{
+    scale: 1.2;
+
+}
+.card{
+    width: 8cm;
+}
+.card img{
+    height: 6cm;
+    width: 6cm;
+    padding: 15px;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+.card h2{
+    text-align: center;
+    /* margin-top: -10px; */
+    color: white;
+    margin-left: 25%;
+}
+.card h3{
+    text-align: center;
+    /* margin-top: -20px; */
+    color: white;
+    margin-left: 10%;
+}
+.star{
+    margin-left: 120px;
+    margin-top: 10px;
+    /* text-align: center; */
+}
+.star i{
+    margin-left: 5px;
+    color: white;
+}
+.star i:hover{
+    color: gold;
+}

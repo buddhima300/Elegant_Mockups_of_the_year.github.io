@@ -1,0 +1,232 @@
+
+
+main{
+    padding: 0;
+    /* border-radius: 4cm; */
+    background-color: rgb(57, 57, 57);
+}
+
+.caption{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.introbox{
+    margin: 25px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 7cm;
+    /* background: linear-gradient(rgb(0, 0, 0), rgb(2, 159, 39)); */
+    background-color: transparent;
+    animation: bg 4s ease infinite;
+}
+
+@keyframes bg{
+    50%{
+        display: grid;
+        background: linear-gradient(rgb(139, 139, 235) blue);
+    }
+}
+
+.introbox div input{
+    font-size: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    height: 1cm;
+    width: 6cm;
+    margin-top: 20px;
+}
+.introbox div input:hover{
+    font-size: 30px;
+    border: 3px solid rgb(2, 197, 41);
+    background-color: rgb(3, 84, 3);
+    color: white;
+   
+}
+.introbox div a:nth-child(2) input{
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+}
+.introbox div a:nth-child(2) input:hover{
+    background-color: rgb(136, 0, 0);
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.introbox2{
+    font-size: 12px;
+    text-align: left;
+    margin-top: 8%;
+    width: 50%;
+    margin-left: 30%;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.card-bg{
+    display: grid;
+    height: 8cm;
+    width: 7cm;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 1cm 2cm;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 25px 2px rgb(56, 56, 56);
+    
+}
+
+.row{
+    margin-top: 5px;
+    display: flex;
+    overflow-x: auto;
+    
+}
+
+.row::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.card-container h2{
+        margin: 20px;
+        color: rgb(0, 0, 0);
+        color: white;
+        border-bottom: 2px solid;
+        /* position: sticky; */
+        top: 1px;
+        background-color: black;
+        /* padding: 5px; */
+}
+
+.cards{
+    display: inline-block;
+    background-color: none;
+    margin-left: 20px;
+    border-radius: 10%;
+    margin-top: 2px;
+    cursor: pointer;
+    animation: scroll 20s linear infinite;
+    
+}
+@keyframes scroll{
+    0%{
+        transform: translate(0%);
+    }
+    100%{
+        transform: translateX(calc(-100px*5));
+    }
+}
+.card-img img{
+    align-content: center;
+    height: 5.5cm;
+    width: 6.5cm;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 3px;
+    border: 1px solid rgb(200, 200, 200);
+}
+.card-img img:hover{
+    align-content: center;
+    height: 9.5cm;
+    width: 12cm;
+    border-radius: 20px;
+    margin-left: -75px;
+    margin-top: -30px;
+    /* margin: 100px; */
+    /* padding: 3px; */
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: -10px 12px 40px rgb(0, 0, 0);
+    animation: animate 2s linear infinite;
+}
+@keyframes animate {
+    0% {
+      transform: scale(1) ; /* Initial state of the image */
+    }
+    50% {
+      transform: scale(1.2) ; /* Intermediate state of the image */
+    }
+    100% {
+      transform: scale(1) ; /* Final state of the image */
+    }
+  }
+/* .cards:hover{
+    align-content: center;
+    height: 10cm;
+    width: 12cm;
+    border-radius: 15px;
+    margin: 50px;
+    padding: 0px;
+    border: 1px solid rgb(200, 200, 200);
+} */
+.content h3{
+    text-align: center;
+    margin-left: 2px;
+    width: 6.8cm;
+    font-family: arial;
+    font-size: 25px;
+    color: black;
+}
+.content p{
+    font-size: 13px;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.textarea{
+    text-align: center;
+    width: 6.8cm;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.card-bg div:nth-child(3){
+    background-color: rgb(208, 163, 0);
+    /* background: linear-gradient(rgb(147, 99, 1), rgb(251, 170, 89),rgb(140, 101, 1)); */
+    background-size: cover;
+    border-radius: 20px;
+    margin: 1px 10%;
+    padding: 1px 10px;
+    color: white;
+    columns: 3;
+    column-gap: 12px;
+    width: 5cm;
+    
+}
+.card-bg div:nth-child(3) i{
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    margin-left: 15px;
+
+}
+
+.card-bg div:nth-child(3) i:hover{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.card-img video{
+    align-content: center;
+    height: 5.5cm;
+    width: 6.5cm;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 3px;
+    border: 1px solid rgb(200, 200, 200);
+}
+.card-img video:hover{
+    animation: animate 2s linear infinite;
+}
+
+video{
+    width: 45cm;
+    height: 25cm;
+}

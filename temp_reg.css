@@ -1,0 +1,119 @@
+body{
+    background-image: url(images/background8.jpg);
+    /* background-color: rgb(255, 255, 255); */
+    background-size: cover;
+    backdrop-filter: blur(20px);
+}
+
+.panel{
+    display: inline-flex;
+}
+.left{
+    /* border: 2px solid rgb(255, 255, 255); */
+    width: 15cm;
+    border-radius: 10px;
+    height: auto;
+    margin-left: 5cm;
+    margin-top: 5cm;
+    /* background-color: rgb(3, 60, 23); */
+    background-color: transparent;
+    /* opacity: 0.35; */
+    display: block;
+    height: 15cm;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: -10px 12px 44px 10px rgb(0, 0, 0);
+    /* backdrop-filter: blur(20px); */
+    
+    
+
+}
+.left i{
+    font-size: 50px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+}
+.right i{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.left h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    /* -webkit-text-stroke: 3px black; */
+}
+.right h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    /* -webkit-text-stroke: 3px black; */
+}
+.right{
+    display: block;
+    /* border: 2px solid white; */
+    width: 15cm;
+    border-radius: 10px;
+    height: auto;
+    margin-left: 2cm;
+    margin-top: 5cm;
+    /* background-color: rgb(2, 62, 22); */
+    background-color: transparent;
+    padding: 10px 20px;
+    box-shadow: -10px 12px 44px 10px rgb(0, 0, 0);
+    /* backdrop-filter: blur(20px); */
+
+}
+
+/* ! registration form styling */
+
+.temp_reg label{
+    color: rgb(0, 0, 0);
+    line-height: 50px;
+    font-size: 30px;
+    margin-right: 40px;
+    /* position: absolute; */
+}
+.temp_reg input{
+    align-content: center;
+    color: white;
+    width: 14cm;
+    background-color: rgb(0, 0, 0);
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    line-height: 40px;
+    outline: none;
+    padding-left: 20px;
+}
+.temp_reg button{
+    margin-left: 20px;
+    margin-top: 30px;
+    line-height: 40px;
+    width: 13cm;
+    background-color: green;
+    /* background: linear-gradient(rgb(3, 22, 232) , rgb(166, 0, 255)); */
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.temp_reg button:hover{
+    background-color: rgb(51, 107, 238);
+}
+
+#arrow{
+    margin-top: 500px;
+    margin-left: 50px;
+    font-size: 50px;
+    color: rgb(9, 87, 0);
+}

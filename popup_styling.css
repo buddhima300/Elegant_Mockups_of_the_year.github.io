@@ -1,0 +1,83 @@
+/* Styling for the popup */
+
+.popup {
+    display: none; /* Hide the popup by default */
+    position: fixed;
+    top: 50%;
+    left: 38%;
+    transform: translate(-20%, -20%);
+    width: 800px;
+    height: 600px;
+    background-color: #171717;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 9999;  
+}
+.popup-head{
+    background-color: rgb(2, 155, 45);
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+.popup-head i{
+    color: white;
+    font-size: 80px;
+    transform: translateX(300px);
+}
+.popup-head i:nth-child(2){
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    transform: translateX(625px);
+    margin-top: -5px;
+}
+
+.popup-head h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* form stylling codes */
+.course-signup{
+    width: fit-content;
+    margin-left: 50px;
+    margin: 10px 120px;
+    display: grid;
+    grid-template-columns: 3;
+    align-content: center;
+    /* transform: translateX(150%); */
+    font-size: 20px;
+}
+.popup-main p{
+    text-align: center;
+    margin: 20px;
+    border-bottom: solid white;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.course-signup label{
+    font-weight: 5px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.course-signup input{
+    height: 1cm;
+    margin-bottom: 5px;
+    padding: 5px 5px;
+    width: 12cm;
+}
+.course-signup button{
+    margin-top: 15px;
+    height: 1.5cm;
+    width: 8cm;
+    margin-left: 2cm;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    border: solid green;
+}
+.course-signup button:hover{
+    background-color: green;
+    color: white;
+}

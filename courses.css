@@ -1,0 +1,98 @@
+body{
+    background-color: white;
+}
+
+main{
+    display: inline-flex;
+}
+.sidepanel{
+    border: 2px solid white;
+    border-bottom: 5px solid green;
+    width: 12cm;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-left: 10px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+.contentpanel{
+    margin-left: 10px;
+    border: 2px solid white;
+    width: 32cm;
+    background-color: white;
+    padding: 20px;
+}
+.sidepanel h2{
+    font-size: 40px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.sidepanel h3{
+    margin: 20px;
+}
+.sidepanel button{
+    display: block;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 300px;
+    height: 50px;
+    margin: 10px 40px;
+    background-color: transparent;
+    border: 2px solid green;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: green;
+}
+.sidepanel button:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid green;
+    color: green;
+}
+
+.sidepanel p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 350px;
+}
+
+/* content panel editing */
+.contentpanel h2{
+    font-size: 50px;
+}
+.contentpanel h3{
+    font-size: 30px;
+    margin-left: 20px;
+    margin: 20px;
+}
+.contentpanel video{
+    width: 32cm;
+    height: 15cm;
+    border-radius: 20px;
+}
+#myVideo::-webkit-media-controls {
+    background-color: rgb(0, 184, 46); /* Set the background color of the play button */
+  }
+.contentpanel p{
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.shareon{
+    display: flex;
+    margin-top: 20px;
+}
+.shareon i{
+    font-size: 30px;
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.shareon i:hover{
+    background-color: white;
+    color: green;
+    border: solid green;
+}

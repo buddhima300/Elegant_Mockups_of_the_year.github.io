@@ -1,0 +1,107 @@
+.bg{
+    height: 11cm;
+    margin-bottom: 20px;
+
+}
+
+.signup-container{
+    position: static;
+    height: 11cm;
+    width: 33cm;
+    /* position: relative; */
+    align-content: center;
+    margin-left: 200px;
+    display: inline-flex;
+    background-color: rgb(8, 10, 27);
+}
+.img-card img{
+    height: 11cm;
+    /* margin-top: 20px; */
+}
+.form-card{
+    display: block;
+}
+.reg-form label{
+    display: block;
+    color: white;
+    font-size: 20px;
+    transform: translateY(80%);
+    margin-left: 20px;
+}
+.reg-form input{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 15cm;
+    height: 30px;
+    outline: none;
+    border: 0.5px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+.reg-form button{
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 6cm;
+    align-content: center;
+    background-color: green;
+    color: white;
+    border: none;
+    height: 40px;
+}
+.reg-form button:hover{
+    background-color: rgb(1, 71, 1);
+}
+.reg-form a{
+    font-size: 15px;
+    display: flex;
+    margin-top: -25px;
+    transform: translateX(50%);
+    color: white;
+    font-family: Arial;
+}
+.reg-form a:hover{
+    color: rgb(10, 245, 2);  
+}
+
+.work-banner{
+    height: 10cm;
+    border-bottom: 10px solid white;
+    padding-bottom: 50px;
+}
+#mainh2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 12px solid rgb(0, 212, 0);
+}
+.tags{
+    margin-top: 2cm;
+    display: inline-block;
+    columns: 3;
+    color: white;
+    text-align: center;
+}
+
+.tags i{
+    font-size: 40px;
+    border: 2px solid white;
+    padding: 20px;
+}
+.tags h2{
+    font-size: 20px;
+    padding: 20px;
+}
+.tags p{
+    font-size: 20px;
+    padding: 12px;
+}
+    

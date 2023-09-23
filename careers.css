@@ -1,0 +1,155 @@
+header{
+    /* background-color: rgb(3, 3, 93); */
+    background-image: url(images/background2.jpg);
+    background-size: cover;
+    margin-top: -40px;
+    width: 45cm;
+    height: 15cm;
+    text-align: center;
+    color: white;
+    font-size: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1{
+    position: absolute;
+    margin-top: 12cm;
+    margin-left: 2cm;
+    background-color: black;
+}
+
+.section1{
+    /* background-color: green; */
+    width: 45cm;
+    margin-left: 4cm;
+}
+.section1 h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.section1 h3{
+    font-size: 20px;
+    font-family: arial;
+    color: rgb(129, 129, 129);
+    margin-top: -20px;
+}
+.section2{
+    display: inline-flex;
+    width: 30cm;
+    margin-left: 7cm;
+    border-bottom: 10px solid rgb(192, 193, 193);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.fields{
+    width: 20cm;
+
+}
+.fields label{
+    font-size: 40px;
+    margin: 10px;
+
+}
+.fields input{
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 8cm;
+
+}
+.fields button{
+    height: 50px;
+    width: 9cm;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(7, 96, 141);
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 2px 2px;
+}
+
+.caps h2{
+    font-size: 30px;
+}
+.caps h3{
+    font-size: 16px;
+}
+
+.section2 select{
+    height: 30px;
+    width: 10cm;
+    margin-left: 20px;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.section2 select:hover{
+    color: white;
+    background-color: rgb(7, 96, 141);
+}
+
+.section3{
+    height: 20cm;
+    margin-left: 5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    box-shadow: 2px 2px 15px;
+    width: 35cm;
+}
+.section3 h2{
+    font-size: 30px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.subsection{
+    display: inline-flex;
+    padding-left: 30px;
+    height: 10cm;
+}
+.subsection div{
+    border: 1px solid rgb(7, 96, 141);
+    padding: 5px;
+    margin-left: 20px;
+    width: 10cm;
+    border-radius: 5px;
+    height: 12cm;
+}
+.card img{
+    width: 10cm;
+    border-bottom: 10px solid  rgb(7, 96, 141);
+}
+.card h3{
+    width: 10cm;
+    font-size: 25px;
+}
+.card p{
+    width: 10cm;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: -20px;
+}
+.news{
+    margin-left: 10cm;
+    margin-top: 2.5cm;
+}
+.news input{
+    height: 40px;
+    width: 18cm;
+    margin-left: -4cm;
+    outline: none;
+}
+.news button{
+    height: 45px;
+    margin-left: -2cm;
+    width: 5cm;
+    font-size: 15px;
+    background-color:  rgb(7, 96, 141);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
